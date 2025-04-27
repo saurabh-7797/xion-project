@@ -1,0 +1,27 @@
+{
+  "name": "xion-blockchain-tests",
+  "version": "1.0.0",
+  "description": "TypeScript tests for XION blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register '**/*_test.ts'"
+  },
+  "author": "XION Blockchain Team",
+  "license": "MIT",
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.31.0",
+    "@cosmjs/proto-signing": "^0.31.0",
+    "@cosmjs/stargate": "^0.31.0",
+    "chai": "^4.3.7",
+    "cosmwasm": "^1.1.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.16.0",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
